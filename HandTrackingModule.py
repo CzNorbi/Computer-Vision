@@ -11,7 +11,7 @@ class HandDetector():
         self.modelComplex = modelComplexity
         self.trackCon = trackCon
         self.mpHands = mp.solutions.hands
-        self.hands = self.mpHands.Hands(self.mode, self.maxHands,self.modelComplex,
+        self.hands = self.mpHands.Hands(self.mode, self.maxHands, self.modelComplex,
                                         self.detectionCon, self.trackCon)
         self.mpDraw = mp.solutions.drawing_utils
     
