@@ -39,7 +39,7 @@ def main():
             else:
                 fingers.append(0)
                 
-            if landmarkDifference(lmList[0], lmList[20]) > landmarkDifference(lmList[0], lmList[19]):
+            if landmarkDifference(lmList[0], lmList[20]) > landmarkDifference(lmList[0], lmList[18]):
                 fingers.append(1)
             else:
                 fingers.append(0)
